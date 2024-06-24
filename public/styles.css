@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    height: 50px;
+}
+
+.subtitle {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ff4500;
+}
+
+.main-image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+.more-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-group input {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    margin: 5px 0;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.testimonial {
+    text-align: center;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}

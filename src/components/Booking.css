@@ -1,0 +1,29 @@
+.booking {
+    padding: 20px;
+  }
+  
+  .booking h1 {
+    color: #333;
+  }
+  
+  .booking h2 {
+    color: #4CAF50;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+  }
+  
